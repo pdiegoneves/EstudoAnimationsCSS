@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    color: magenta;
+    transition: color 200ms ease-in 50ms;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+button:hover {
+    color: rebeccapurple;
+    transition: color 200ms ease-out 50ms;;
+}
