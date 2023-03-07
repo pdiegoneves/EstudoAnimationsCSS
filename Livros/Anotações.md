@@ -2,7 +2,7 @@
 
 ## Transitions and Animations in CSS Adding Motion with CSS (Estelle Weyl)
 
-** 12 Princípios Básicos da Animação **
+__12 Princípios Básicos da Animação__
 1. Comprimir e esticar
 2. Antecipação
     > Guie seus usuários mentalmente para onde eles devem focar > antes de iniciar o efeito principal, especialmente se o início da animação for importante
@@ -19,3 +19,18 @@
 11. Desenho sólido
 12. Apelo
 
+### Transições CSS
+
+> As transições CSS fornecem uma maneira de controlar como uma propriedade muda de um valor para o próximo ao longo do tempo.
+
+_Mudanças instantâneas de valor geralmente são a melhor experiência do usuário_
+
+> Se o navegador não der suporte a transições a página irá pular do estado inicial para o final, mas nenhum conteúdo será perdido.
+
+```
+Própriedades da transição:
+1. transitionproperty
+2. transition-duration
+3. transition-timing-function
+4. transitiondelay
+```
