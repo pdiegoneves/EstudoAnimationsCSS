@@ -1,0 +1,7 @@
+p[contenteditable] {
+    background-color: rgba(0,0,0, 0);
+}
+
+p[contenteditable]:focus {
+    background-color: rgba(0,0,0, 0.1);
+}
