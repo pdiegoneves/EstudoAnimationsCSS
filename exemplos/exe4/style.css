@@ -1,0 +1,20 @@
+nav > ul{
+    display: flex;
+    gap: 20px
+}
+
+nav li ul {
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+    transform: scale(1, 0);
+    transform-origin: top center;
+    }
+nav li:hover ul {
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    transform: scale(1, 1);
+}
