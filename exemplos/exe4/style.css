@@ -12,9 +12,5 @@ nav li ul {
     transform-origin: top center;
     }
 nav li:hover ul {
-    transition-property: transform;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
     transform: scale(1, 1);
 }
